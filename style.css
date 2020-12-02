@@ -40,3 +40,51 @@ form{
     margin: 0px;
     padding: 0px;
 }
+
+.header {
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    font-size: 0;
+    text-align: center;
+  }
+.header nav li {
+    display: inline;
+    text-align: center;
+  }
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+}
+.logo{
+    width: 15%;
+    text-align: center;
+}
+.navbar{
+    width: 70%;
+    color: #025157;
+    /* margin: 0 25px 0 25px; */
+}
+.actions{
+    width: 15%;
+    color: #67b54b;
+    font-size: 14px;
+}
+.actions > * {
+margin: 0;
+}
+.actions > a {
+    color: #67b54b;
+}
+.actions > button {
+    color: #fff;
+    background-color: #67b567;
+    padding: 12px 14px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.menu-item{
+    display: inline;
+    margin: 0 25px;
+}
