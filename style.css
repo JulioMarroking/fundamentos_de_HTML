@@ -3,7 +3,11 @@ body{
     text-align: center;
 }
 h1{
+    text-align: center;
     color: #025157;
+    font-family: 'Alegreya SC', serif;
+    font-size: 60px;
+    font-weight: bold;
 }
 h4 {
     color: #46484c;
@@ -34,23 +38,27 @@ input {
 form{
     text-align: center;
 }
-
-*{
+/* Todo a Cero  */
+*{ 
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
 .header {
-    margin-top: 35px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 150px;
     margin-left: 20px;
-    margin-right: 20px; 
+    /* Otra forma */ /* margin: 40px 20px 150px 20px; */ 
     font-size: 0;
     text-align: center;
+    height: 45px;
   }
 .header nav li {
     display: inline;
     text-align: center;
+    /* margin: 25px; */
   }
 .header > * {
   display: inline-block;
@@ -63,28 +71,28 @@ form{
 .navbar{
     width: 70%;
     color: #025157;
+    text-align: center;
     /* margin: 0 25px 0 25px; */
 }
 .actions{
-    width: 15%;
-    color: #67b54b;
+    width: 15%;    
     font-size: 14px;
 }
 .actions > * {
-margin: 0;
+margin:  10px;
 }
 .actions > a {
     color: #67b54b;
 }
 .actions > button {
     color: #fff;
-    background-color: #67b567;
+    background-color: #67b54b;
     padding: 12px 14px;
-    border-radius: 5px;
-    font-weight: 600;
+    border-radius: 10px;
+    font-weight: 600px;
 }
 
 .menu-item{
     display: inline;
-    margin: 0 25px;
+    margin: 0px 25px 0px 25px;
 }
