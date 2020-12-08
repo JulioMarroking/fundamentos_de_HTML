@@ -1,6 +1,6 @@
 
 body{
-    text-align: center;
+    /* text-align: center; */
 }
 h1{
     text-align: center;
@@ -26,14 +26,11 @@ button {
     height: 35px;
 }
 input {
-   
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 7px 50px;
-    
-}
+    padding: 7px 50px;  
 }
 form{
     text-align: center;
@@ -45,54 +42,208 @@ form{
     padding: 0px;
 }
 
+.main {
+  margin-top: 150px;
+  text-align: center;
+  padding: -10px;
+  font-family: sans-serif;
+}
+.main h1 {
+  color: #025157;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Alegreya", serif;
+}
+.main form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto_centrado {
+  text-align: center;
+  color: #46484c;
+  margin: 15px 0;
+}
+.main button {
+  color: #fff;
+  background-color: #025157;
+  height: 45px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+}
+.main input {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 45px;
+  margin-right: -5px;
+  border: 1px solid #c6c6c6;
+  padding: 0 5px;
+}
+.main .banner {
+  margin-top: 25px;
+  text-align: center;
+}
+.main .second_banner {
+  margin-top: 25px;
+  text-align: center;
+}
+.main .second_banner img {
+  width: 60%;
+}
+.main .grey-text {
+  color: #a6a6a6;
+  text-align: center;
+  margin-top: 15px;
+}
+
 .header {
-    margin-top: 40px;
-    margin-right: 20px;
-    margin-bottom: 150px;
-    margin-left: 20px;
-    /* Otra forma */ /* margin: 40px 20px 150px 20px; */ 
+    margin: 40px 20px 10px 20px;
+     /* Otra forma */ /*  */ 
+    /* margin-top: 40px; */
+    /* margin-right: 20px; */
+    /* margin-bottom: 150px; */
+    /* margin-left: 20px; */
     font-size: 0;
-    text-align: center;
+    text-align: justify;
     height: 45px;
-  }
-.header nav li {
-    display: inline;
-    text-align: center;
-    /* margin: 25px; */
-  }
+    font-family: sans-serif;
+}
+
 .header > * {
-  display: inline-block;
-  font-size: 16px;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
 }
+
+.menu-item{
+    display: inline;
+    margin: 0 25px;
+/* ootra forma de poner margin, en el sentido del reloj */
+    /* margin: 0px 25px 0px 25px; */
+}
+
 .logo{
-    width: 15%;
-    text-align: center;
+    width: 20%;
+    height: 100%;
 }
+
+.logo > img{
+    height: 100%;
+}
+
 .navbar{
-    width: 70%;
-    color: #025157;
+    width: 60%;
     text-align: center;
+    color: #025157;
+    font-weight: 900;
     /* margin: 0 25px 0 25px; */
 }
-.actions{
-    width: 15%;    
+
+/* .header nav li { */
+    /* display: inline; */
+    /* text-align: center; */
+    /* margin: 25px; */
+  /* } */
+
+.actions {
+    width: 20%;
+    text-align: right;
     font-size: 14px;
+    font-weight: 600;
 }
 .actions > * {
-margin:  10px;
+margin: 0 10px;
 }
 .actions > a {
     color: #67b54b;
 }
 .actions > button {
     color: #fff;
-    background-color: #67b54b;
+    background-color: #67b567;
     padding: 12px 14px;
-    border-radius: 10px;
-    font-weight: 600px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
 }
-
-.menu-item{
-    display: inline;
-    margin: 0px 25px 0px 25px;
+.texto_centrado {
+    text-align: center;
+    color: #46484c;
+  }
+/* Aqui empieza el CSS de la clase tres 03-12-2020 */ 
+.publish > form > button {           /* TODAVIA TENGO DUDAS */
+        color: #fff;
+        background-color: #025157;
+        height: 35px;
+        border-top-right-radius: 6px; 
+        border-bottom-right-radius: 6px;
+        border-bottom-right-radius: 10px;
+        border: none;
+        padding: 5px;
+    }
+.publish > form > input {
+        border-top-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+        height: 45px;
+        margin-right: -5px;
+        border: 1px solid #c6c6c6;
+        padding: 0px 5px;
+    }
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    }
+.explanatory-video {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.explanatory-video > img {
+    width 120px;
+    margin-top: 10px;
+ }
+.publish {
+    flex: 3;
+    text-align: left;
+    flex-direction: column
+    ;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background-color: #fffbf7;  */
+    background-color: #fff;
+}
+.publish  h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;  
+    margin-top: -16%;   
+}
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;   
+}
+.publish > form {
+    display: flex;
+    flex-direction: column;
+    height: 55;  
+    text-align: left;
+}
+.publish > form > p { 
+    color: #025157;
+    margin-right: 18px;  
+    
+    }
