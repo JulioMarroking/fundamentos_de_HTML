@@ -247,3 +247,7 @@ margin: 0 10px;
     margin-right: 18px;  
     
     }
+
+.features {
+    display: grid;
+}
